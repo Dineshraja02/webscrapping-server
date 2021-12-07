@@ -1,8 +1,8 @@
 const { MongoClient } = require("mongodb");
 
 let MONGODB_URL =
-  "mongodb+srv://Shashidhar_5:Shashi%40123@cluster0.kms6f.mongodb.net/OnlineShopping?retryWrites=true";
-let MONGODB_NAME = "OnlineShopping";
+"mongodb+srv://dinesh:FnY8MOvdMKBxRRJh@onlineshopping.g9vjw.mongodb.net/onlineshopping?retryWrites=true&w=majority";
+let MONGODB_NAME = "onlineshopping";
 
 let client = new MongoClient(MONGODB_URL);
 let mongo = {
