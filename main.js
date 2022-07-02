@@ -11,7 +11,7 @@ const app = express();
 server = async () => {
   try {
     await mongo.connect();
-//     await mongo.products.deleteMany({});
+    await mongo.products.deleteMany({});
     await getData();
     console.log("data inserted");
     //reset data base for every 12 hrs
